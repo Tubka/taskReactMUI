@@ -1,0 +1,31 @@
+.containerModal {
+  display: flex;
+  width: 80%;
+  align-items: center;
+}
+
+.boxModal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.pagination {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination__container {
+  height: 80vh;
+  width: 80%;
+}
+
+
